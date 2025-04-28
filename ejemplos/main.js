@@ -42,3 +42,12 @@ hijo.innerHTML=serie
 salida.appendChild(hijo);
 })
 
+function sumar(a,b){
+    let resultado = a+b; //esto es una variable reservale el espacio de memoria
+    return resultado;
+}
+
+let resultadoSuma = sumar(4,6)
+
+console.log(resultadoSuma)
+
